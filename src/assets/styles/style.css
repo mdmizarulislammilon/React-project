@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.HomeImage{
+    margin: 0px;
+    padding: 0px;
+   
+    justify-self: end;
+    box-sizing: border-box;
+
+
+}
+.Homestyle{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+.Homestyle h2{
+    font-size: 40px;
+}
+
+.Homestyle h3{
+    font-size: 30px;
+}
+.Homestyle p{
+    font-size: 30px;
+}
+.textcolor{
+    color: red;
+}
+.btn{
+    margin-top: 20px;
+}
+.aboutimg{
+    margin: 20px;
+}
+.abouttext{
+    padding: 30px;
+}
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:400px;
+    width:100%;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:100%;
+    width:100%;
+}
+.post{
+    margin:0px 20px;
+}
+:root{
+    --size:20px;
+}
+.blogpost img{
+    padding: var(--size);
+
+}
+.blogpost h4 {
+    padding: var(--size);
+}
+.blogpost p{
+    padding: var(--size);
+}
+.Servise col-4{
+    text-align: center;
+}
+.ser{
+    text-align: center;
+    padding: 20px;
+}
+.ser img{
+    padding: 20px;
+    border-radius:40% ;
+    -webkit-border-radius:40% ;
+    -moz-border-radius:40% ;
+    -ms-border-radius:40% ;
+    -o-border-radius:40% ;
+}
